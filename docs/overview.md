@@ -36,10 +36,11 @@ Enter a job id in the field. The format of the job id must be:
 
 ![GetById](images/GetById.png)
 
+You can uploade query plans from your desktop.
+_(If you have previously downloaded the query plan using the `bq show -j --format=prettyjson <job-id>` command to a local file)_
 
-Assuming you have previously downloaded the query plan using the `bq show -j --format=prettyjson <job-id>` command to a local file,
-click on this card the 'Select File to upload' button, navigate to the file and select it. To start uploading click the
-Upload button.
+Click on this card's  `Select File to upload` button, navigate to the file and select it. To start uploading click the
+`Upload` button.
 
 ![upload](images/upload.png)
 

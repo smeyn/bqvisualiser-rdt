@@ -15,8 +15,8 @@ The app has two options to retrieve queryplans directly from BigQuery:
 1. via listing queries in projects,  or
 2. direcly usi g the query job id
 
-For either of these, the app needs to authenticate with GCP so the app can access teh BigQuery REST API. 
-To be able to access the BigQuery REST API you need to have create an OAuth client. Create this in the Google Cloud
+For either of these, the app needs to authenticate with GCP so the app can access the BigQuery REST API. 
+You need to have create an OAuth client using the Google Cloud
 Console under `APIs & Services > Credentials`.
 
 When setting up the Client ID :
@@ -40,6 +40,6 @@ the **ClientId** value in the console's Credential page
 Requires the Angular application needs to be installed.
 
 Compile with
-  `ng build --prod`
+  `ng build --production`
 
 The output will be in the `dist` directory. Deploy its contents to the web server  
